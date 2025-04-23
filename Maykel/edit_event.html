@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Event</title>
+    <link rel="stylesheet" href="../Michael/css/event.css">
+</head>
+<body>
+    <form action="edit_event.php" method="post">
+        <div class="container">
+            <div class = "header">
+                <h1 style="float: left; margin: 8px;">Events Form</h1>
+                <div class="headerbtn">
+                <a href="view_events.php"><button type="button" class="backbtn"> Back </button></a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <label for="evCode"><b>Event Code</b></label>
+            <input type="text" placeholder="Enter Event Code" name="evCode" id="evCode" required><br><br>
+            <label for="evName"><b>Event Name</b></label>
+            <input type="text" placeholder="Enter Event Name" name="evName" id="evName" required><br><br>
+            <label for="evDate"><b>Event Date</b></label>
+            <input type="date" placeholder="Enter Event Date" name="evDate" id="evDate" required><br><br>
+            <label for="evVenue"><b>Event Venue</b></label>
+            <input type="text" placeholder="Enter Event Venue" name="evVenue" id="evVenue" required><br><br>
+            <label for="evRFee"><b>Event Registration Fee</b></label>
+            <input type="text" placeholder="Enter Event Registration Fee" name="evRFee" id="evRFee" required><br><br>
+            <button type="submit" class="editbtn">Edit Event</button>
+            <button type="reset" class="cancelbtn">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
